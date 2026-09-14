@@ -16,7 +16,7 @@
 
 ## 👋 我在做什么
 
-- 🤖 **AI Agent / Tool Calling / MCP**：让模型能够调用本地工具、执行命令、管理任务和完成真实工作流
+- 🤖 **AI Agent / Tool Calling / MCP**：让模型能够调用本地工具、执行命令、操作浏览器 / Windows UI，并通过状态验证完成真实工作流
 - 🖥️ **Windows / Electron 桌面开发**：桌面 UI、本地服务、进程管理、PowerShell 自动化与 Windows 打包
 - 🌐 **Web 开发与维护**：JavaScript / Vue / Flask / Express / REST API、页面维护与功能迭代
 - ☁️ **部署与运维**：Cloudflare Workers / D1 / R2、Nginx、Docker、静态站发布与回滚
@@ -26,6 +26,7 @@
 | 项目 | 技术 | 重点 |
 |---|---|---|
 | 🤖 **[DeepSeek Local Harness](https://github.com/3192673546/deepseek-local-harness)** | Python · Electron · MCP · PowerShell | Windows 本地 AI Agent Harness，整合 Agent Loop、受监督 PowerShell 工具执行、MCP STDIO 与桌面 UI |
+| 🧩 **[Windows Agent MCP Lab](https://github.com/3192673546/windows-agent-mcp-lab)** | Python · MCP · CDP · Windows UIA | 自建 Agent 工具链实验：Browser MCP、Computer Use、Local Coding Agent、状态失效与安全回归测试 |
 | 📝 **[Writing Desktop](https://github.com/3192673546/writing)** | Electron · JavaScript · Express · MathJax | 基于开源 Writing 的桌面化与工程化二次开发：本地文档、Markdown / LaTeX 预览、导出、Windows 文件关联与自动化测试 |
 | 📚 **[Question Bank](https://github.com/3192673546/question-bank)** | Flask · SQLite · JavaScript · KaTeX | 可部署的题库 Web 工作台，组合服务端数据访问、前端交互与数学公式渲染 |
 | 🎵 **[Ballroom Dance Music](https://github.com/3192673546/Ballroom-dance-music)** | Vue · JavaScript · Web | 交谊舞曲 Web 应用，包含在线播放、歌曲分类、后台管理、批量上传与部署实践 |
@@ -53,7 +54,7 @@
 
 | 方向 | 技术 |
 |---|---|
-| **AI / Agent** | Python · LLM Agent · Agent Loop · MCP · Tool Calling · Prompt Engineering |
+| **AI / Agent** | Python · Agent Runtime · MCP · Tool Calling · Computer Use · CDP · Windows UIA |
 | **Desktop** | Electron · Node.js · Windows · PowerShell · electron-builder · PyInstaller |
 | **Web** | JavaScript · Vue · HTML · CSS · Flask · Express · REST API |
 | **Backend / Cloud** | SQLite · Spring Boot · Cloudflare Workers · D1 · R2 |
@@ -76,7 +77,7 @@ I focus on **AI Agents, Windows desktop applications, and Web engineering**, esp
 
 ### Core Areas
 
-- **AI Agents:** Python, Agent Loop, MCP, Tool Calling, local automation
+- **AI Agents:** Python, Agent Runtime, MCP, Tool Calling, Computer Use, CDP / Windows UIA
 - **Desktop:** Electron, Windows, PowerShell, local services, packaging
 - **Web:** JavaScript, Vue, Flask, Express, REST APIs
 - **Deployment:** Cloudflare, Nginx, Docker, static-site release and rollback workflows
@@ -84,6 +85,7 @@ I focus on **AI Agents, Windows desktop applications, and Web engineering**, esp
 ### Featured Projects
 
 - **[DeepSeek Local Harness](https://github.com/3192673546/deepseek-local-harness)** — Windows local AI Agent harness integrating an Agent Loop, supervised PowerShell execution, MCP STDIO, and Electron UI.
+- **[Windows Agent MCP Lab](https://github.com/3192673546/windows-agent-mcp-lab)** — Windows-focused MCP tooling lab covering browser automation, Computer Use, local coding tools, stale-state prevention, fail-closed safety checks, and regression tests.
 - **[Writing Desktop](https://github.com/3192673546/writing)** — Desktop and engineering extensions for the open-source Writing editor.
 - **[Question Bank](https://github.com/3192673546/question-bank)** — Flask + SQLite Web workspace with JavaScript interactions and KaTeX rendering.
 - **[Ballroom Dance Music](https://github.com/3192673546/Ballroom-dance-music)** — Vue-based music Web application with management and deployment workflows.
