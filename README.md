@@ -31,15 +31,18 @@
 | 🎵 **[Ballroom Dance Music](https://github.com/3192673546/Ballroom-dance-music)** | Vue · JavaScript · Web | 交谊舞曲 Web 应用，包含在线播放、歌曲分类、后台管理、批量上传与部署实践 |
 | ☁️ **[Freemail Web](https://github.com/3192673546/mailfree-app)** | Cloudflare Workers · D1 · R2 · JavaScript | 基于开源项目进行 Web 二次开发、部署和维护，涉及邮件路由、数据存储、权限与响应式页面 |
 
-## 🛠️ 工程与部署实践
+## 🌐 Web 与部署实践
 
-### [Static Site Deployment / Mirror](https://github.com/3192673546/csgraduates-static-mirror)
+### 🌐 [计算机考研杂货铺](https://github.com/3192673546/csgraduates-static-mirror)
 
-**Nginx · Cloudflare · Static Site · Linux**
+**Static Site · Nginx · Cloudflare · Linux** · [在线访问](https://mirror.xyzcxcc.cloud)
 
-静态资料站的部署与维护实践，重点在 **Nginx 配置、版本化发布、原子切换、回滚、静态资源检查和线上稳定性验证**。
+我开发并持续维护的 **计算机考研学习资料站**，主要整理计算机专业课知识、408 复习资料与学习方法，同时负责网站页面迭代与线上工程维护。
 
-> 仓库中的资料内容并非本人原创；该项目主要用于展示静态站部署、清理和运维能力。
+- 持续维护站点内容、页面结构与静态资源
+- 使用 Nginx + Cloudflare 提供静态站访问与 HTTPS
+- 采用版本化 release、符号链接原子切换与保留旧版本实现快速回滚
+- 上线前后执行关键页面、资源与公网状态验证
 
 ### 更多项目
 
@@ -86,7 +89,7 @@ I focus on **AI Agents, Windows desktop applications, and Web engineering**, esp
 - **[Ballroom Dance Music](https://github.com/3192673546/Ballroom-dance-music)** — Vue-based music Web application with management and deployment workflows.
 - **[Freemail Web](https://github.com/3192673546/mailfree-app)** — Open-source Web customization and deployment practice using Cloudflare Workers, D1, and R2.
 
-The **static-site deployment repository** is presented as deployment/operations practice; third-party educational content in that repository is not claimed as my original work.
+- **[Computer Science Study Site](https://github.com/3192673546/csgraduates-static-mirror)** — A computer science / 408 study site that I develop and maintain, with Nginx, Cloudflare, versioned static releases, smoke tests, production verification, and rollback support.
 
 </details>
 
