@@ -2,121 +2,91 @@
 
 # AI Agent / Desktop & Web Developer
 
-**AI Agent · Electron · Python · MCP · PowerShell · JavaScript · Web**
+**Python · Electron · MCP · PowerShell · JavaScript · Vue · Flask**
 
-专注于 **AI Agent、Windows 桌面应用与 Web 工程开发**，喜欢把大模型能力真正接到本地工具、桌面程序和业务 Web 系统中。
+把 **LLM / AI Agent** 接到真实工具、本地系统和 Web 应用中，关注能真正执行任务、可部署、可维护的工程实现。
 
-[个人主页](https://3192673546.github.io) · [全部仓库](https://github.com/3192673546?tab=repositories)
+**目标方向：AI Agent 开发 · Web 开发与维护 · Electron 桌面开发**
+
+[个人主页](https://3192673546.github.io) · [全部仓库](https://github.com/3192673546?tab=repositories) · [DeepSeek Local Harness](https://github.com/3192673546/deepseek-local-harness)
 
 </div>
 
 ---
 
-## 👨‍💻 关于我
+## 👋 我在做什么
 
-- 🤖 主要方向：**AI Agent / LLM 工具调用 / 本地自动化**
-- 🖥️ 桌面开发：**Electron / Windows / PowerShell**
-- 🌐 Web 开发：**JavaScript / Vue / Node.js / Express / REST API**
-- ☁️ 云端与部署：**Cloudflare Workers / D1 / R2 / Docker**
-- 🧩 关注方向：Agent Runtime、MCP、Tool Calling、桌面与 Web 工程化
+- 🤖 **AI Agent / Tool Calling / MCP**：让模型能够调用本地工具、执行命令、管理任务和完成真实工作流
+- 🖥️ **Windows / Electron 桌面开发**：桌面 UI、本地服务、进程管理、PowerShell 自动化与 Windows 打包
+- 🌐 **Web 开发与维护**：JavaScript / Vue / Flask / Express / REST API、页面维护与功能迭代
+- ☁️ **部署与运维**：Cloudflare Workers / D1 / R2、Nginx、Docker、静态站发布与回滚
 
-## 🚀 代表项目
+## ⭐ 精选项目
 
-### 🤖 [DeepSeek Local Harness](https://github.com/3192673546/deepseek-local-harness)
+| 项目 | 技术 | 重点 |
+|---|---|---|
+| 🤖 **[DeepSeek Local Harness](https://github.com/3192673546/deepseek-local-harness)** | Python · Electron · MCP · PowerShell | Windows 本地 AI Agent Harness，整合 Agent Loop、受监督 PowerShell 工具执行、MCP STDIO 与桌面 UI |
+| 📝 **[Writing Desktop](https://github.com/3192673546/writing)** | Electron · JavaScript · Express · MathJax | 基于开源 Writing 的桌面化与工程化二次开发：本地文档、Markdown / LaTeX 预览、导出、Windows 文件关联与自动化测试 |
+| 📚 **[Question Bank](https://github.com/3192673546/question-bank)** | Flask · SQLite · JavaScript · KaTeX | 可部署的题库 Web 工作台，组合服务端数据访问、前端交互与数学公式渲染 |
+| 🎵 **[Ballroom Dance Music](https://github.com/3192673546/Ballroom-dance-music)** | Vue · JavaScript · Web | 交谊舞曲 Web 应用，包含在线播放、歌曲分类、后台管理、批量上传与部署实践 |
+| ☁️ **[Freemail Web](https://github.com/3192673546/mailfree-app)** | Cloudflare Workers · D1 · R2 · JavaScript | 基于开源项目进行 Web 二次开发、部署和维护，涉及邮件路由、数据存储、权限与响应式页面 |
 
-**Python · Electron · MCP · PowerShell · JavaScript**
+## 🛠️ 工程与部署实践
 
-Windows 本地 AI Agent Harness，将 **DeepSeek Web、Agent Loop、本地 PowerShell 工具执行与 Electron 桌面 UI** 整合到一个应用中。
+### [Static Site Deployment / Mirror](https://github.com/3192673546/csgraduates-static-mirror)
 
-- 支持本地 Agent 工具循环与受监督 PowerShell 执行
-- 支持文件、Git、npm、Python 与长进程操作
-- 提供 MCP STDIO 接口，便于接入标准 MCP Client
-- Electron 桌面客户端支持登录态保存、消息队列与任务中断
-- 使用 PyInstaller + electron-builder + NSIS 完成 Windows 打包
+**Nginx · Cloudflare · Static Site · Linux**
 
----
+静态资料站的部署与维护实践，重点在 **Nginx 配置、版本化发布、原子切换、回滚、静态资源检查和线上稳定性验证**。
 
-### 📝 [Writing Desktop](https://github.com/3192673546/writing)
+> 仓库中的资料内容并非本人原创；该项目主要用于展示静态站部署、清理和运维能力。
 
-**Electron · JavaScript · Node.js · Express · MathJax**
+### 更多项目
 
-基于开源 Writing 编辑器进行 **桌面化与工程化二次开发**，增加本地文档管理、Windows 桌面客户端、Markdown / LaTeX 预览和自动化测试流程。
-
-- Electron Windows 桌面客户端与 EXE / Portable 打包
-- 本地文档、图片、文件夹管理 API
-- Markdown + MathJax 实时预览与渲染优化
-- PDF / 长图导出与 Windows 文件关联
-- 渲染、API、UI、桌面流程自动化测试
-
----
-
-### 🎵 [Ballroom Dance Music](https://github.com/3192673546/Ballroom-dance-music)
-
-**Vue · JavaScript · Web**
-
-交谊舞曲 Web 应用，包含 **在线播放、歌曲分类、后台管理、批量上传与部署** 等功能，用于展示前端页面开发与 Web 项目维护能力。
-
----
-
-### ☁️ [Freemail Web](https://github.com/3192673546/mailfree-app)
-
-**Cloudflare Workers · D1 · R2 · JavaScript**
-
-基于开源项目进行 **Web 二次开发、部署与维护**，涉及 Cloudflare Workers、D1 数据库、R2 存储、Email Routing、权限与响应式页面等。
-
----
-
-### 🎓 [Student Management](https://github.com/3192673546/student-management)
-
-**Spring Boot · MyBatis · Thymeleaf · Java**
-
-学生管理系统实践项目，用于展示 Java Web、数据库访问与传统服务端页面开发能力。
+- 🎓 [Student Management](https://github.com/3192673546/student-management) — Spring Boot · MyBatis · Thymeleaf · Java
+- 🌐 [Personal Website](https://github.com/3192673546/3192673546.github.io) — 个人主页与静态 Web 展示
 
 ## 🧰 技术栈
 
 | 方向 | 技术 |
 |---|---|
-| **AI / Agent** | Python · LLM Agent · MCP · Tool Calling · Prompt Engineering |
+| **AI / Agent** | Python · LLM Agent · Agent Loop · MCP · Tool Calling · Prompt Engineering |
 | **Desktop** | Electron · Node.js · Windows · PowerShell · electron-builder · PyInstaller |
-| **Web** | JavaScript · Vue · HTML · CSS · Express · REST API |
-| **Backend / Cloud** | Spring Boot · Cloudflare Workers · D1 · R2 · Docker |
-| **Tools** | Git · GitHub · VS Code · PowerShell |
+| **Web** | JavaScript · Vue · HTML · CSS · Flask · Express · REST API |
+| **Backend / Cloud** | SQLite · Spring Boot · Cloudflare Workers · D1 · R2 |
+| **DevOps / Tools** | Linux · Nginx · Docker · Git · GitHub · PowerShell |
 
 ## 📌 当前重点
 
-目前重点完善 **AI Agent + Desktop/Web** 方向的项目，希望把 Agent 从“聊天”进一步扩展到 **真实工具调用、本地任务执行、桌面交互与 Web 系统集成**。
+正在继续完善 **AI Agent + Desktop / Web** 方向：让 Agent 不只停留在聊天层，而是能够进行 **真实工具调用、本地任务执行、桌面交互、Web 系统集成与可控运行**。
 
 <details>
 <summary><b>🌍 English version — click to expand</b></summary>
 
 <br>
 
-## About Me
+## About
 
-I focus on **AI Agents, Windows desktop applications, and Web engineering**, especially connecting LLMs with real local tools, desktop workflows, and production-style Web systems.
+I focus on **AI Agents, Windows desktop applications, and Web engineering**, especially connecting LLMs with real tools, local systems, and deployable applications.
 
-- 🤖 AI Agents / LLM tool use / local automation
-- 🖥️ Electron / Windows / PowerShell desktop development
-- 🌐 JavaScript / Vue / Node.js / Express / REST APIs
-- ☁️ Cloudflare Workers / D1 / R2 / Docker
-- 🧩 Interested in Agent Runtime, MCP, Tool Calling, and desktop/Web integration
+**Target roles:** AI Agent Development · Web Development / Maintenance · Electron Desktop Development
 
-## Featured Projects
+### Core Areas
 
-### [DeepSeek Local Harness](https://github.com/3192673546/deepseek-local-harness)
-A Windows local AI Agent harness integrating DeepSeek Web, an Agent Loop, supervised PowerShell tool execution, and an Electron desktop UI.
+- **AI Agents:** Python, Agent Loop, MCP, Tool Calling, local automation
+- **Desktop:** Electron, Windows, PowerShell, local services, packaging
+- **Web:** JavaScript, Vue, Flask, Express, REST APIs
+- **Deployment:** Cloudflare, Nginx, Docker, static-site release and rollback workflows
 
-### [Writing Desktop](https://github.com/3192673546/writing)
-Engineering and desktop extensions for the open-source Writing editor, including Electron packaging, local document management, MathJax preview improvements, and automated tests.
+### Featured Projects
 
-### [Ballroom Dance Music](https://github.com/3192673546/Ballroom-dance-music)
-A Vue-based music Web application with playback, song management, admin upload workflows, and deployment support.
+- **[DeepSeek Local Harness](https://github.com/3192673546/deepseek-local-harness)** — Windows local AI Agent harness integrating an Agent Loop, supervised PowerShell execution, MCP STDIO, and Electron UI.
+- **[Writing Desktop](https://github.com/3192673546/writing)** — Desktop and engineering extensions for the open-source Writing editor.
+- **[Question Bank](https://github.com/3192673546/question-bank)** — Flask + SQLite Web workspace with JavaScript interactions and KaTeX rendering.
+- **[Ballroom Dance Music](https://github.com/3192673546/Ballroom-dance-music)** — Vue-based music Web application with management and deployment workflows.
+- **[Freemail Web](https://github.com/3192673546/mailfree-app)** — Open-source Web customization and deployment practice using Cloudflare Workers, D1, and R2.
 
-### [Freemail Web](https://github.com/3192673546/mailfree-app)
-Open-source Web project customization, deployment, and maintenance using Cloudflare Workers, D1, R2, and Email Routing.
-
-### [Student Management](https://github.com/3192673546/student-management)
-A Spring Boot + MyBatis + Thymeleaf Java Web practice project.
+The **static-site deployment repository** is presented as deployment/operations practice; third-party educational content in that repository is not claimed as my original work.
 
 </details>
 
