@@ -1,105 +1,101 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img alt="杨振业 · Yang Zhenye — AI Agent / Desktop & Web Developer" src="assets/header-light.svg" width="100%">
+</picture>
 
-# AI Agent / Desktop & Web Developer
+<p>
+<b>求职方向</b>　AI Agent 开发 · Electron 桌面开发 · Web 开发与维护<br>
+<b>联系邮箱</b>　13339189151xyz@gmail.com<br>
+<b>个人站点</b>　<a href="https://mirror.xyzcxcc.cloud">mirror.xyzcxcc.cloud</a>
+</p>
 
-**Python · Electron · MCP · PowerShell · JavaScript · Vue · Flask**
+我主要做一件事：把大模型接到**真实工具和本地系统**上，包括 PowerShell、浏览器、Windows 桌面和 Web 服务，并且用最终状态来判断任务是否完成，而不是“工具调用返回成功”。
 
-把 **LLM / AI Agent** 接到真实工具、本地系统和 Web 应用中，关注能真正执行任务、可部署、可维护的工程实现。
+## 代表项目
 
-**目标方向：AI Agent 开发 · Web 开发与维护 · Electron 桌面开发**
+<table>
+<tr>
+<td width="50%" valign="top">
 
-[个人主页](https://3192673546.github.io) · [全部仓库](https://github.com/3192673546?tab=repositories) · [DeepSeek Local Harness](https://github.com/3192673546/deepseek-local-harness)
+### [DeepSeek Local Harness](https://github.com/3192673546/deepseek-local-harness)
 
-</div>
+<sub>Python · Electron · PowerShell · MCP</sub>
 
----
+Windows 本地 AI Agent 桌面应用。设计了一个极小的文本协议 `<<<PS>>>`，让没有原生 Function Calling 的模型也能驱动本地 PowerShell：严格解析完整响应，交给受监督的执行器运行，再把结果回写到同一会话。
 
-## 👋 我在做什么
+**v1.0.0** 一键安装包已发布，用户不用另装 Python / Node
 
-- 🤖 **AI Agent / Tool Calling / MCP**：让模型能够调用本地工具、执行命令、操作浏览器 / Windows UI，并通过状态验证完成真实工作流
-- 🖥️ **Windows / Electron 桌面开发**：桌面 UI、本地服务、进程管理、PowerShell 自动化与 Windows 打包
-- 🌐 **Web 开发与维护**：JavaScript / Vue / Flask / Express / REST API、页面维护与功能迭代
-- ☁️ **部署与运维**：Cloudflare Workers / D1 / R2、Nginx、Docker、静态站发布与回滚
+</td>
+<td width="50%" valign="top">
 
-## ⭐ 精选项目
+### [Windows Agent MCP Lab](https://github.com/3192673546/windows-agent-mcp-lab)
 
-| 项目 | 技术 | 重点 |
-|---|---|---|
-| 🤖 **[DeepSeek Local Harness](https://github.com/3192673546/deepseek-local-harness)** | Python · Electron · MCP · PowerShell | Windows 本地 AI Agent Harness，整合 Agent Loop、受监督 PowerShell 工具执行、MCP STDIO 与桌面 UI |
-| 🧩 **[Windows Agent MCP Lab](https://github.com/3192673546/windows-agent-mcp-lab)** | Python · MCP · CDP · Windows UIA | 自建 Agent 工具链实验：Browser MCP、Computer Use、Local Coding Agent、状态失效与安全回归测试 |
-| 📝 **[Writing Desktop](https://github.com/3192673546/writing)** | Electron · JavaScript · Express · MathJax | 基于开源 Writing 的桌面化与工程化二次开发：本地文档、Markdown / LaTeX 预览、导出、Windows 文件关联与自动化测试 |
-| 📚 **[Question Bank](https://github.com/3192673546/question-bank)** | Flask · SQLite · JavaScript · KaTeX | 可部署的题库 Web 工作台，组合服务端数据访问、前端交互与数学公式渲染 |
-| 🎵 **[Ballroom Dance Music](https://github.com/3192673546/Ballroom-dance-music)** | Vue · JavaScript · Web | 交谊舞曲 Web 应用，包含在线播放、歌曲分类、后台管理、批量上传与部署实践 |
-| ☁️ **[Freemail Web](https://github.com/3192673546/mailfree-app)** | Cloudflare Workers · D1 · R2 · JavaScript | 基于开源项目进行 Web 二次开发、部署和维护，涉及邮件路由、数据存储、权限与响应式页面 |
+<sub>Python · Node.js · CDP · Windows UIA · ConPTY</sub>
 
-## 🌐 Web 与部署实践
+自建浏览器、桌面、编码三类 MCP 工具服务，重点在状态失效、fail-closed 安全拒绝和回归测试，并通过 OpenAI Secure MCP Tunnel 接入 ChatGPT 连接器。
 
-### 🌐 [计算机考研杂货铺](https://github.com/3192673546/csgraduates-static-mirror)
+**Browser MCP 12/12 · Computer Use 8/8** 自测通过
 
-**Static Site · Nginx · Cloudflare · Linux** · [在线访问](https://mirror.xyzcxcc.cloud)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-我开发并持续维护的 **计算机考研学习资料站**，主要整理计算机专业课知识、408 复习资料与学习方法，同时负责网站页面迭代与线上工程维护。
+### [Writing Desktop](https://github.com/3192673546/writing)
 
-- 持续维护站点内容、页面结构与静态资源
-- 使用 Nginx + Cloudflare 提供静态站访问与 HTTPS
-- 采用版本化 release、符号链接原子切换与保留旧版本实现快速回滚
-- 上线前后执行关键页面、资源与公网状态验证
+<sub>Electron · Node.js · Express · MathJax</sub>
 
-### 更多项目
+开源 Markdown / LaTeX 编辑器的桌面化二次开发：做了 EXE 打包、`.md` 文件关联、本地文档库和公式预览防闪烁，并修复了公式占位符泄漏问题。
 
-- 🎓 [Student Management](https://github.com/3192673546/student-management) — Spring Boot · MyBatis · Thymeleaf · Java
-- 🌐 [Personal Website](https://github.com/3192673546/3192673546.github.io) — 个人主页与静态 Web 展示
+**自动化测试** 覆盖渲染规则、预览截图、API 与真实 UI 点击
 
-## 🧰 技术栈
+</td>
+<td width="50%" valign="top">
+
+### [计算机考研杂货铺](https://github.com/3192673546/csgraduates-static-mirror)
+
+<sub>Nginx · Cloudflare · Linux</sub>
+
+独立开发并持续运营的 408 学习资料站。采用版本化 release、符号链接原子切换发布，上线前后都做冒烟测试和公网验证，并保留上一版本以便回滚。
+
+**线上运行中** · [mirror.xyzcxcc.cloud](https://mirror.xyzcxcc.cloud)
+
+</td>
+</tr>
+</table>
+
+## 做事方式
+
+- **Observe → Act → Verify**：写操作之前先重新观察，操作之后再次确认状态。
+- **Fail closed**：窗口、焦点、页面状态对不上时直接拒绝执行，不盲目重试。
+- **以证据判定完成**：进程启动、点击送达都不等于任务完成，要看最终结果。
+
+## 技术栈
 
 | 方向 | 技术 |
 |---|---|
-| **AI / Agent** | Python · Agent Runtime · MCP · Tool Calling · Computer Use · CDP · Windows UIA |
-| **Desktop** | Electron · Node.js · Windows · PowerShell · electron-builder · PyInstaller |
-| **Web** | JavaScript · Vue · HTML · CSS · Flask · Express · REST API |
-| **Backend / Cloud** | SQLite · Spring Boot · Cloudflare Workers · D1 · R2 |
-| **DevOps / Tools** | Linux · Nginx · Docker · Git · GitHub · PowerShell |
+| AI / Agent | Agent Loop · Tool Calling · MCP · Computer Use · CDP · Windows UIA |
+| 桌面 | Electron · PowerShell · electron-builder / NSIS · PyInstaller · ConPTY |
+| Web | JavaScript · Vue 3 · Express · Flask · Spring Boot · REST API |
+| 数据与部署 | SQLite · MySQL · Cloudflare Workers / D1 / R2 · Nginx · Docker · Linux |
 
-## 📌 当前重点
+## 其他项目
 
-正在继续完善 **AI Agent + Desktop / Web** 方向：让 Agent 不只停留在聊天层，而是能够进行 **真实工具调用、本地任务执行、桌面交互、Web 系统集成与可控运行**。
+- [交谊舞曲平台](https://github.com/3192673546/Ballroom-dance-music)：Vue 3 + Express + SQLite 全栈音乐站，用 FFmpeg 自动截取试听片段，JWT 鉴权
+- [题库工作台](https://github.com/3192673546/question-bank)：Flask + SQLite + KaTeX，管理题目、试卷与知识点大纲
+- [Freemail](https://github.com/3192673546/mailfree-app)：在 Cloudflare Workers / D1 / R2 上部署和维护临时邮箱服务
+- [学生管理系统](https://github.com/3192673546/student-management)：Spring Boot + MyBatis + Thymeleaf 练习项目
 
 <details>
-<summary><b>🌍 English version — click to expand</b></summary>
+<summary><b>English</b></summary>
 
 <br>
 
-## About
+**Yang Zhenye** — Information & Computing Science, Anhui University of Science and Technology (class of 2027). I build AI agents that operate real tools — PowerShell, browsers, the Windows desktop and web services — and judge success by verified end state rather than a tool call returning "ok".
 
-I focus on **AI Agents, Windows desktop applications, and Web engineering**, especially connecting LLMs with real tools, local systems, and deployable applications.
-
-**Target roles:** AI Agent Development · Web Development / Maintenance · Electron Desktop Development
-
-### Core Areas
-
-- **AI Agents:** Python, Agent Runtime, MCP, Tool Calling, Computer Use, CDP / Windows UIA
-- **Desktop:** Electron, Windows, PowerShell, local services, packaging
-- **Web:** JavaScript, Vue, Flask, Express, REST APIs
-- **Deployment:** Cloudflare, Nginx, Docker, static-site release and rollback workflows
-
-### Featured Projects
-
-- **[DeepSeek Local Harness](https://github.com/3192673546/deepseek-local-harness)** — Windows local AI Agent harness integrating an Agent Loop, supervised PowerShell execution, MCP STDIO, and Electron UI.
-- **[Windows Agent MCP Lab](https://github.com/3192673546/windows-agent-mcp-lab)** — Windows-focused MCP tooling lab covering browser automation, Computer Use, local coding tools, stale-state prevention, fail-closed safety checks, and regression tests.
-- **[Writing Desktop](https://github.com/3192673546/writing)** — Desktop and engineering extensions for the open-source Writing editor.
-- **[Question Bank](https://github.com/3192673546/question-bank)** — Flask + SQLite Web workspace with JavaScript interactions and KaTeX rendering.
-- **[Ballroom Dance Music](https://github.com/3192673546/Ballroom-dance-music)** — Vue-based music Web application with management and deployment workflows.
-- **[Freemail Web](https://github.com/3192673546/mailfree-app)** — Open-source Web customization and deployment practice using Cloudflare Workers, D1, and R2.
-
-- **[Computer Science Study Site](https://github.com/3192673546/csgraduates-static-mirror)** — A computer science / 408 study site that I develop and maintain, with Nginx, Cloudflare, versioned static releases, smoke tests, production verification, and rollback support.
+- **[DeepSeek Local Harness](https://github.com/3192673546/deepseek-local-harness)** — Windows desktop agent; a tiny `<<<PS>>>` text protocol lets models without native function calling drive a supervised PowerShell runner. v1.0.0 installer released.
+- **[Windows Agent MCP Lab](https://github.com/3192673546/windows-agent-mcp-lab)** — browser, desktop and coding MCP servers with stale-state prevention, fail-closed checks and regression tests; connected to ChatGPT via OpenAI Secure MCP Tunnel.
+- **[Writing Desktop](https://github.com/3192673546/writing)** — Electron packaging and engineering for an open-source Markdown / LaTeX editor, with automated rendering and UI tests.
+- **[CS study site](https://mirror.xyzcxcc.cloud)** — a live site I build and run, with versioned releases, atomic switching and rollback.
 
 </details>
-
----
-
-<div align="center">
-
-**持续构建能真正调用工具、完成任务的 AI Agent。**  
-*Building AI agents that can use real tools and get real work done.*
-
-</div>

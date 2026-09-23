@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="杨振业 Yang Zhenye — AI Agent / Desktop &amp; Web Developer">
+  <style>
+    .cn   { font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", "Source Han Sans SC", sans-serif; }
+    .mono { font-family: "Cascadia Code", "JetBrains Mono", Consolas, "SFMono-Regular", Menlo, monospace; }
+  </style>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="14" fill="#161B22" stroke="#30363D"/>
+  <rect x="0" y="0" width="8" height="320" rx="4" fill="#58A6FF"/>
+
+  <text x="56" y="126" class="cn" font-size="72" font-weight="700" fill="#E6EDF3" letter-spacing="4">杨振业</text>
+  <text x="60" y="168" class="mono" font-size="22" fill="#8B949E">Yang Zhenye · AI Agent / Desktop &amp; Web Developer</text>
+  <text x="58" y="226" class="cn" font-size="25" fill="#E6EDF3">把大模型接到真实工具上，让 Agent 真正把事做完。</text>
+  <text x="60" y="270" class="cn" font-size="17" fill="#8B949E">安徽理工大学 · 信息与计算科学 · 2027 届本科</text>
+
+  <g transform="translate(700 44)">
+    <rect width="452" height="232" rx="10" fill="#0D1117" stroke="#30363D"/>
+    <circle cx="22" cy="20" r="5.5" fill="#FF5F57"/>
+    <circle cx="40" cy="20" r="5.5" fill="#FEBC2E"/>
+    <circle cx="58" cy="20" r="5.5" fill="#28C840"/>
+    <text x="436" y="25" class="mono" font-size="13" fill="#6E7681" text-anchor="end">deepseek-local-harness</text>
+    <g class="mono" font-size="18">
+      <text x="22" y="72"  fill="#8B949E">task: publish the lab</text>
+      <text x="22" y="104" fill="#E3B341">&lt;&lt;&lt;PS&gt;&gt;&gt;</text>
+      <text x="22" y="136" fill="#E6EDF3">git push origin main</text>
+      <text x="22" y="168" fill="#E3B341">&lt;&lt;&lt;END_PS&gt;&gt;&gt;</text>
+      <text x="22" y="206" fill="#56D364">PS_RESULT exit=0 · verified</text>
+    </g>
+  </g>
+</svg>
